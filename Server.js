@@ -92,7 +92,7 @@ return message.channel.send(embed)
 }
 if(command === 'rank'){
 const fetch = require("node-fetch")
-let imagen = await fetch('https://i.imgur.com/iLiur6t.jpg')
+let imagen = await fetch('aqui el url del fondo de tanto card png o jpg')
 let usuario = message.mentions.users.first() || message.author;
 const Canvas = require('canvas');
   let niveles = new db.crearDB("niveles")
